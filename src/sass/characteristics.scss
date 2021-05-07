@@ -1,0 +1,36 @@
+.characteristics__parameters {
+  width: 571px;
+}
+
+.characteristics__line {
+  display: flex;
+
+  margin-bottom: 19px;
+  padding-bottom: 6px;
+
+  border-bottom: 1px solid $color-tab-grey;
+}
+
+.characteristics__parameter {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: $color-dark;
+
+  padding-right: 100px;
+}
+
+.characteristics__value {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: right;
+
+  margin-left: auto;
+}

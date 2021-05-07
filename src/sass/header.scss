@@ -1,0 +1,98 @@
+.header {
+  background-color: $color-grey;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1270px;
+  min-width: $page-min-width;
+  min-height: 84px;
+
+  font-weight: 400;
+
+  margin: 0 auto;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.header__logo {
+  position: relative;
+
+  padding-top: 20px;
+  padding-left: 90px;
+
+  font-weight: 700;
+  font-size: 20px;
+  color: $color-dark;
+
+  line-height: 25px;
+  letter-spacing: 1.13em;
+
+  cursor: default;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+
+    width: 55px;
+    height: 55px;
+
+    top: 15px;
+    left: 16px;
+
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.header__company {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.13em;
+
+  margin: 0;
+
+  &--bigger {
+    padding-left: 1px;
+  }
+
+  &--smaller {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.header__nav-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding-left: 44px;
+}
+
+.header__nav-link {
+  display: block;
+  text-align: center;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #48494D;
+
+  margin-left: 37px;
+  padding: 31px 16px 30px 16px;
+
+  &:hover,
+  &:focus {
+    background-color: $color-form-grey;
+  }
+}

@@ -1,0 +1,13 @@
+.product-section {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1253px;
+  min-width: $page-min-width;
+  min-height: 494px;
+
+  font-weight: 400;
+
+  margin: 0 auto 86px auto;
+  padding-left: 35px;
+}
